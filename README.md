@@ -3,7 +3,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Product-Carbon-Footprint-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Product-Carbon-Footprint-Platform?style=flat-square&logo=github" alt="GitHub stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Product-Carbon-Footprint-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Product-Carbon-Footprint-Platform?style=flat-square&logo=github" alt="GitHub_Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Product-Carbon-Footprint-Platform/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Product-Carbon-Footprint-Platform?style=flat-square&logo=github" alt="GitHub forks"/></a>
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-emerald.svg?style=flat-square" alt="License: MIT"/></a>
   <a href="http://makeapullrequest.com"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome"/></a>
