@@ -1,294 +1,215 @@
-# Awesome-Product-Carbon-Footprint-Platform
-
-Edit
-Top Product Carbon Footprint Platform Ecosystem
-
-Curated List of SaaS Products & Open-Source GitHub Projects
-Focused on Product Carbon Footprint (PCF), Life Cycle Assessment (LCA), Scope 3, Supply Chain Emissions, Environmental Product Data & Decarbonization
-Last updated: September 2026
-
-This repository tracks notable SaaS/hosted platforms and open-source projects for Product Carbon Footprint (PCF) Management. These tools help manufacturers, retailers, supply-chain organizations, sustainability teams, and product companies measure, model, analyze, report, and reduce the greenhouse-gas emissions associated with products and services across their life cycles.
-
-A typical Product Carbon Footprint workflow can include raw materials, supplier data, manufacturing, energy consumption, transportation, packaging, product use, end-of-life treatment, emission factors, Life Cycle Assessment (LCA), Scope 3 calculations, and environmental reporting.
-
-Examples include CarbonChain, Emitwise, Watershed, Normative, Sweep, Plan A, Greenly, MakerSights Sustainability, Sphera Product Sustainability, and Pathzero (among notable commercial platforms).
-
-Open-source emphasis: The open-source ecosystem is particularly strong in the underlying scientific and technical layers of product carbon accounting. While there are fewer fully integrated open-source SaaS-style PCF platforms, a large ecosystem exists around LCA engines, environmental databases, emission-factor tools, supply-chain modelling, industrial ecology, carbon calculation libraries, digital-product footprint measurement, energy modelling, and sustainability analytics.
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites or canonical upstream repositories.
-
-Table of Contents
-
-SaaS/Hosted Platforms
-
-Open-Source GitHub Projects
-
-How to Contribute
-
-Disclaimer
-
-SaaS/Hosted Platforms
-
-| Platform | Description | Starting Pricing | Free Tier / Trial Limit |
-| :--- | :--- | :--- | :--- |
-| **CarbonChain** | Supply-chain carbon accounting and decarbonization platform focused on calculating product and supplier emissions, particularly for complex industrial and commodity supply chains. | Starts at ~$32,000/year (£25,000/year; ~$2,667/month billed annually) for core industrial modules | 14-day free trial for CBAM reporting and supplier catalogue modules; free standalone Corporate Carbon and ETS Exposure calculators (no permanent free tier for core SaaS) |
-| **Emitwise** | Enterprise carbon-accounting platform designed to help organizations collect emissions data, analyze Scope 1, 2, and 3 emissions, and identify decarbonization opportunities across operations and supply chains. | Starts at ~$9,500/year (£7,500/year; ~$790/month billed annually) for entry mid-market tier | Free zero-cost data-entry portal for suppliers invited by enterprise customers; free public SME Climate Hub calculator (no self-serve free trial for core SaaS) |
-| **Watershed** | Enterprise climate platform supporting carbon measurement, Scope 3 accounting, supply-chain engagement, decarbonization programs, and climate-related reporting. | Starts at ~$37,000/year (~$3,083/month billed annually; onboarding/implementation typically $10,000+) | No permanent free tier or self-service trial; guided sales pilot / PoC sandboxes provided for qualified enterprise accounts; free open CEDA database download access |
-| **Normative** | Carbon-accounting and emissions-management platform focused on organizational and supply-chain emissions measurement, reduction planning, and sustainability reporting. | Starts at ~$11,000/year (€10,000/year; ~$915/month billed annually) for baseline corporate accounting | Free Business Carbon Calculator for SMEs (unlimited basic Scope 1, 2, and spend-based Scope 3 estimations); guided demo on request (no full-platform free trial) |
-| **Sweep** | Carbon-management platform supporting emissions data collection, Scope 3 calculations, supply-chain collaboration, reduction planning, and enterprise climate programs. | Starts at €250/month (€3,000/year) for entry module access; comprehensive enterprise suites start at ~€30,000/year (~$32,500/year) | No permanent free tier; guided interactive demo sandbox available on request upon sales consultation (no open self-service trial days) |
-| **Plan A** | Enterprise sustainability and decarbonization platform supporting emissions measurement, environmental data management, reduction initiatives, and sustainability reporting. | Starts at ~$13,000/year (€12,000/year; ~$1,080/month billed annually) for mid-market carbon accounting | No permanent free tier; guided demo and short sandbox testing environment available upon sales qualification (no open self-service free trial) |
-| **Greenly** | Carbon-accounting platform designed to automate emissions calculations through financial, operational, supplier, and activity data integrations. | Starts at $1,950/year (~$162.50/month billed annually) for entry SME GHG assessment and reporting | Free standalone web calculators (AI Carbon Footprint, Quick Carbon, and CSRD/CBAM eligibility tools); guided platform demo on request (no self-serve free trial) |
-| **MakerSights Sustainability** | Product intelligence and sustainability capabilities supporting consumer-product teams with product decisions, material information, and sustainability-related analysis. | Starts at ~$15,000/year (~$1,250/month billed annually) for product intelligence & sustainability modules | No self-serve free tier or open trial; guided custom product prototype testing demo available upon request |
-| **Sphera Product Sustainability** | Enterprise sustainability platform with life-cycle assessment, product sustainability, product stewardship, environmental data, and supply-chain sustainability capabilities. | Starts at ~$6,500/year (~€6,000/year; ~$540/month per named user) for standard LCA for Experts desktop/cloud packages | 45-day free trial for LCA for Experts (formerly GaBi) with standard dataset access; extended 6-month free educational license for accredited university faculty and PhD researchers |
-| **Pathzero** | Carbon-accounting and climate-reporting platform designed for organizations and investment portfolios to measure, manage, and report emissions. | Starts at ~$18,000/year (~$1,500/month billed annually) for entry portfolio carbon accounting and disclosure | No permanent free tier; interactive guided product walkthrough and sandbox demo available on request |
-| **SINAI Technologies** | Enterprise decarbonization platform supporting emissions inventories, scenario modelling, abatement planning, internal carbon pricing, and reduction pathways. | Starts at ~$20,000/year (~$1,666/month billed annually) for baseline module and decarbonization scenario modelling | No self-service free tier; custom scenario-modelling demo sandbox provided upon consultation |
-| **Persefoni** | Climate-management platform supporting enterprise carbon accounting, emissions inventories, sustainability disclosure, and audit-ready reporting. | Free ($0) for Persefoni Pro; paid enterprise and advanced disclosure packages start at ~$55,000/year (~$4,580/month) | Free-forever plan ("Persefoni Pro") limited to 1 user seat, baseline Scope 1 & 2 + select Scope 3 accounting, excluding advanced reporting & audit modules |
-| **IBM Envizi** | Enterprise ESG and sustainability-data platform supporting environmental data management, emissions accounting, reporting, and decarbonization analysis. | Standalone Envizi Emissions API starts from $45/month; complete Envizi ESG Suite starts at ~$30,000/year ($2,500/month) | No permanent free tier; guided interactive test-drive demo accessible via IBM Portal |
-| **Workiva ESG** | Sustainability reporting and governance platform supporting ESG data management, evidence collection, controls, reporting, and disclosure workflows. | Starts at ~$25,000/year (~$2,083/month billed annually) for core ESG reporting module | No open free tier or self-service trial; custom guided workspace walkthrough and reporting demo available on request |
-| **EcoAct** | Climate and sustainability services and technology provider supporting carbon footprinting, climate strategy, emissions reduction, and reporting. | Base advisory and digital footprint assessment packages start at ~$16,500/year (€15,000/year) | No self-service free tier; complimentary initial discovery assessment and diagnostic demo upon request |
-| **One Click LCA** | Life-cycle assessment and carbon-management platform focused strongly on construction products, buildings, infrastructure, Environmental Product Declarations, and embodied carbon. | Starter Business LCA license starts from €1,190/year (~$1,300/year; approx. €99/month per named user) | 14-day free trial for building & infrastructure LCA modules (instant online registration); 100% free Building LCA license for enrolled students & university instructors |
-| **SimaPro** | Professional life-cycle assessment software widely used for modelling product environmental impacts and conducting detailed LCA studies. | SimaPro Expert single-user annual subscription starts at €3,500/year (~$3,800/year; approx. €290/month); permanent licenses from ~€8,500 | 30-day free trial with demo datasets (limited Ecoinvent records); 1-year free Faculty plan for educational institutions in UN-classified low/lower-middle income countries |
-| **eTool** | Sustainability and LCA software focused on product and built-environment environmental assessments. | Starter subscription starts at ~$1,200/year (~$100/month) plus project certification fees; single-project access from ~$250/project | 14-day free trial with sample project templates; free online software training courses and free Revit LCA plugin download |
-| **Circularise** | Supply-chain traceability and material-data platform supporting circularity, product transparency, supplier data exchange, and sustainability information. | Starting traceability and Digital Product Passport (DPP) pilot packages begin from €18,000/year (~$19,500/year; ~€1,500/month) | No self-service free tier; interactive DPP sandbox walkthrough and sample batch traceability demo available on request |
-| **Manufacture 2030 (M2030)** | Manufacturing sustainability and supply-chain decarbonization platform helping industrial organizations measure emissions and implement decarbonization initiatives. | Buyer enterprise sponsorship programs start at ~$19,000/year (£15,000/year; ~$1,580/month); basic supplier data entry is free when invited by enterprise buyers | Zero-cost access for suppliers invited by enterprise customers to input site-level manufacturing data; interactive platform demo on request |
-| **SAP Sustainability Footprint Management** | Enterprise platform for calculating and managing product and corporate carbon footprints using operational and supply-chain data. | Base subscription add-on starts at ~€24,000/year (~$26,000/year; ~$2,000/month) for SAP S/4HANA cloud environments | 30-day free trial via SAP Business Technology Platform (BTP) trial environment with standard test dataset limitations |
-| **Siemens SiGREEN** | Industrial sustainability and product-carbon-footprint data exchange capabilities designed for sharing PCF information across manufacturing value chains. | Starter PCF exchange package begins at ~€15,000/year (~$16,500/year; ~$1,250/month) via Siemens Xcelerator | Interactive SiGREEN test environment demo available upon request; free access for suppliers to share PCF exchange certificates |
-| **EcoVadis** | Sustainability ratings and supplier-assessment platform supporting supply-chain sustainability analysis and engagement. | Basic plan starts at €350/year (~$380/year for small businesses <25 employees); Premium plan starts from ~€1,800/year (~$1,950/year) | Free Carbon Rating tier available; 6-week free completion period for invited suppliers prior to scorecard finalization |
-| **Worldly** | Sustainability-data platform supporting product, material, supply-chain, and manufacturing environmental measurement, particularly across consumer goods industries. | Entry single-facility assessment subscriptions start at $99 – $350/year; full brand analytics modules start around $2,500/year (~$208/month) | Free basic user account for receiving and viewing shared Higg Index assessment scores from supply chain partners; free introductory training modules |
-
-Open-Source GitHub Projects
-
-openLCA
-One of the most widely used open-source Life Cycle Assessment platforms. It supports detailed product footprint modelling, carbon calculations, environmental impact assessment, ISO-oriented LCA workflows, and custom environmental models.
-
-Brightway
-Powerful open-source Python ecosystem for Life Cycle Assessment. It is particularly suitable for automated, large-scale, parameterized, reproducible, and programmatic product footprint calculations.
-
-Activity Browser
-Open-source graphical interface for working with Brightway-based LCA projects, databases, inventories, and environmental impact calculations.
-
-Brightway2 Data
-Core open-source data-management library for Brightway-based life-cycle assessment workflows.
-
-Brightway2 Calc
-Core calculation engine for matrix-based Life Cycle Assessment and environmental impact calculations.
-
-Brightway2 IO
-Open-source import/export and data-processing tools for integrating LCA databases and datasets into Brightway workflows.
-
-BoaviztAPI
-Open-source API for evaluating environmental impacts of digital products and services based on hardware configuration, manufacturing, and usage information.
-
-BoAgent
-Open-source environmental impact monitoring agent and API for estimating the footprint of servers and applications running on computing infrastructure.
-
-Boavizta Cloud Scanner
-Open-source tool for analysing the environmental impact of cloud resources and infrastructure.
-
-Boavizta e-footprint
-Open-source modelling tool for assessing the environmental footprint of digital services and comparing design scenarios across their life cycles.
-
-Boavizta e-footprint Interface
-Open-source graphical interface for modelling and exploring environmental footprints generated through the e-footprint ecosystem.
-
-Datavizta
-Open-source visualization project for exploring product and hardware environmental footprint information.
-
-Cloud Carbon Footprint
-Open-source platform for estimating and visualizing carbon emissions associated with cloud infrastructure and cloud services.
-
-Green Software Foundation Carbon Aware SDK
-Open-source software-development toolkit for building applications that respond to grid carbon intensity and schedule workloads more sustainably.
-
-Carbon Aware SDK Web API
-Open-source API infrastructure for integrating carbon-intensity information into applications, workload schedulers, and sustainability-aware systems.
-
-Green Software Foundation SCI
-Open specification and ecosystem for the Software Carbon Intensity methodology, enabling standardized measurement of software emissions.
-
-Scaphandre
-Open-source power and energy-consumption monitoring agent that exports system energy metrics for carbon and sustainability calculations.
-
-CodeCarbon
-Open-source Python library that estimates carbon emissions associated with computing workloads, data science, machine learning, and software execution.
-
-CarbonTracker
-Open-source tool for estimating energy use and carbon emissions associated with machine-learning model training.
-
-Experiment Impact Tracker
-Open-source tool for estimating the energy and environmental impacts of machine-learning experiments.
-
-Eco2AI
-Open-source library for tracking energy consumption and carbon emissions from AI and computing workloads.
-
-Green Algorithms
-Open-source environmental impact methodology and tooling for estimating the carbon footprint of computational workloads.
-
-Lcopt
-Open-source Life Cycle Assessment foreground-modelling tool designed to help users construct and explore product systems and environmental models.
-
-LCA Calculator Projects
-Community collection of open-source LCA calculators, product footprint tools, environmental impact engines, and sustainability modelling projects.
-
-OpenGreenMetric
-Open-source product environmental-footprint engine that estimates cradle-to-grave impacts using public emission-factor sources, uncertainty analysis, and reproducible calculations.
-
-pyLCA
-Community Python libraries and implementations for programmatic Life Cycle Assessment and environmental footprint calculations.
-
-Industrial Ecology Open Source Projects
-Curated ecosystem of open-source projects for industrial ecology, material-flow analysis, life-cycle assessment, environmental modelling, and sustainability research.
-
-Premise
-Open-source Python library for integrating prospective life-cycle inventory scenarios and future energy-system assumptions into LCA databases.
-
-Wurst
-Open-source Python toolkit for manipulating and transforming life-cycle inventory databases for scenario analysis and prospective LCA.
-
-Pylcaio
-Open-source framework supporting hybrid Life Cycle Assessment through the integration of process-based and input-output models.
-
-EXIOBASE
-Open multi-regional environmentally extended supply-use and input-output data ecosystem useful for supply-chain environmental and carbon-footprint analysis.
-
-pyMRIO
-Open-source Python toolkit for analysing multi-regional input-output databases and calculating environmental footprints across global supply chains.
-
-ODYM
-Open-source framework for dynamic material-flow analysis and stock modelling, useful for analysing product lifecycles and material systems.
-
-pymfa
-Open-source material-flow analysis tools useful for modelling material movements, resource use, recycling, and product-system flows.
-
-OSeMOSYS
-Major open-source energy-system modelling framework useful for analysing energy scenarios and the carbon implications of product manufacturing and supply chains.
-
-PyPSA
-Open-source Python framework for modelling and optimizing electricity and energy systems, useful when product footprints depend heavily on energy-system scenarios.
-
-Calliope
-Open-source energy-system modelling platform for analysing low-carbon energy systems and scenario-based environmental impacts.
-
-oemof
-Open-source energy modelling framework that can support energy and carbon scenario calculations.
-
-Switch
-Open-source energy planning and optimization platform focused on electricity systems, renewable energy, and long-term emissions analysis.
-
-TEMOA
-Open-source energy-system optimization framework supporting technology, energy, and emissions scenario analysis.
-
-Odoo Community
-Open-source ERP platform that can act as a data backbone for product carbon-footprint systems by connecting products, BOMs, suppliers, procurement, inventory, manufacturing, and operational data.
-
-ERPNext
-Open-source ERP and manufacturing platform suitable for collecting product, BOM, inventory, procurement, supplier, and production data required by custom PCF calculations.
-
-Odoo Community Association
-Large open-source ecosystem of Odoo modules that can provide manufacturing, procurement, inventory, quality, supplier, and sustainability-data building blocks.
-
-InvenTree
-Open-source inventory and component-management platform supporting structured parts, suppliers, BOMs, builds, and traceability data useful for product footprint calculations.
-
-Part-DB
-Open-source component and inventory management system that can help maintain structured information about parts, suppliers, specifications, and component records.
-
-Apache Airflow
-Open-source workflow orchestration platform suitable for automating supplier-data ingestion, emission-factor updates, PCF calculations, and sustainability reporting pipelines.
-
-Apache NiFi
-Open-source data-flow platform useful for integrating ERP, PLM, manufacturing, supplier, energy, logistics, and environmental datasets.
-
-Node-RED
-Open-source flow-based programming platform for integrating IoT, energy, manufacturing, logistics, databases, and sustainability APIs.
-
-n8n
-Source-available workflow automation platform frequently self-hosted for connecting sustainability, supplier, operational, and business systems.
-
-OpenRefine
-Open-source data-cleaning and transformation tool useful for normalizing supplier declarations, activity data, product records, emission factors, and material datasets.
-
-Baserow
-Open-source collaborative database platform suitable for building product carbon inventories, supplier-data registers, emission-factor libraries, and review workflows.
-
-NocoDB
-Open-source no-code database platform that can be adapted into a collaborative Product Carbon Footprint data-management application.
-
-Directus
-Open-source data platform suitable for building APIs and management interfaces around product, supplier, material, manufacturing, and carbon-footprint data.
-
-Budibase
-Open-source low-code platform for building custom PCF data-entry applications, supplier questionnaires, sustainability dashboards, and approval workflows.
-
-Appsmith
-Open-source low-code platform suitable for creating internal sustainability and carbon-footprint dashboards connected to existing databases and APIs.
-
-ToolJet
-Open-source low-code platform for building internal applications that combine ERP, supplier, product, and carbon datasets.
-
-Metabase
-Open-source business-intelligence platform suitable for building carbon, PCF, supplier-emissions, manufacturing, and sustainability dashboards.
-
-Apache Superset
-Open-source analytics and visualization platform suitable for exploring large-scale environmental, supply-chain, and product-footprint datasets.
-
-Grafana
-Open-source observability and dashboard platform useful for visualizing energy, carbon, production, cloud, and operational sustainability metrics.
-
-Additional Strong Open-Source Options
-
-Life Cycle Assessment engines: openLCA, Brightway, Activity Browser, Lcopt, and numerous Python-based LCA projects.
-
-Digital product and infrastructure footprints: BoaviztAPI, BoAgent, Cloud Scanner, e-footprint, Cloud Carbon Footprint, Scaphandre, and CodeCarbon.
-
-Product and supply-chain data foundations: ERPNext, Odoo Community, OCA modules, InvenTree, and Part-DB.
-
-Industrial ecology and supply-chain modelling: pyMRIO, EXIOBASE, ODYM, pymfa, Wurst, Premise, and hybrid LCA tools.
-
-Energy and emissions scenario modelling: PyPSA, Calliope, OSeMOSYS, oemof, Switch, and TEMOA.
-
-Emission-factor and environmental databases: Community LCA databases, public government datasets, input-output models, and open scientific inventories.
-
-Data engineering: Apache Airflow, Apache NiFi, Node-RED, OpenRefine, and self-hosted automation platforms.
-
-Custom carbon applications: Directus, Baserow, NocoDB, Budibase, Appsmith, and ToolJet.
-
-Analytics and visualization: Metabase, Apache Superset, and Grafana.
-
-Many specialized community projects for Scope 3 calculations, supply-chain emissions, material footprints, embodied carbon, machine-learning carbon measurement, cloud carbon accounting, and environmental impact modelling.
-
-Frameworks for building custom systems: A powerful open-source Product Carbon Footprint platform can combine openLCA or Brightway as the scientific LCA calculation engine, ERPNext or Odoo Community as the product and supply-chain data backbone, and InvenTree or Part-DB for structured components and BOMs. Use Apache NiFi, Airflow, Node-RED, or n8n for collecting supplier, logistics, manufacturing, and energy data. Add OpenRefine for data normalization, and expose results through Directus, Baserow, or NocoDB. Finally, use Metabase, Apache Superset, or Grafana for PCF dashboards and carbon-reduction analysis.
-
-For digital products and cloud services, combine BoaviztAPI, Cloud Carbon Footprint, Scaphandre, and CodeCarbon to measure infrastructure and computational emissions.
-
-How to Contribute
-
-Fork the repo.
-
-Add/edit entries in README.md (follow existing format).
-
-Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-Prefer official websites and canonical upstream repositories.
-
-Submit a PR with a short explanation.
-
-Star the repo if you find it useful!
-
-Disclaimer
-
-This is a community-curated list — not exhaustive and not an endorsement.
-
-Product Carbon Footprint calculations can vary significantly depending on system boundaries, functional units, allocation methods, emission factors, data quality, geography, and Life Cycle Assessment methodology.
-
-Different PCF methodologies and standards may produce different results for the same product.
-
-Automated software calculations do not by themselves guarantee compliance with ISO, GHG Protocol, Environmental Product Declaration, or regulatory reporting requirements.
-
-Product carbon-footprint claims intended for external reporting, customer communication, certification, or regulatory purposes should be reviewed according to the applicable methodology and, where required, independently verified.
-
-Self-hosted open-source systems require careful governance of emission factors, datasets, versioning, system boundaries, supplier data, calculation methods, audit trails, and security.
-
-Made for sustainability teams, manufacturers, supply-chain organizations, product managers, industrial ecologists, climate-tech developers, researchers, and engineers building transparent carbon-intelligence systems.
-
-Let's make product carbon footprint measurement more open, reproducible, transparent, and data-driven.
+# 🌱 Awesome Product Carbon Footprint Platforms (PCF) & LCA Ecosystem
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Product-Carbon-Footprint-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Product-Carbon-Footprint-Platform?style=flat-square&logo=github" alt="GitHub stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Product-Carbon-Footprint-Platform/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Product-Carbon-Footprint-Platform?style=flat-square&logo=github" alt="GitHub forks"/></a>
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-emerald.svg?style=flat-square" alt="License: MIT"/></a>
+  <a href="http://makeapullrequest.com"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Product-Carbon-Footprint-Platform/commits/main"><img src="https://img.shields.io/github/last-commit/ishandutta2007/Awesome-Product-Carbon-Footprint-Platform?style=flat-square" alt="GitHub last commit"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
+
+<p align="center">
+  <a href="assets/banner.svg"><img src="assets/banner.svg" alt="Awesome Product Carbon Footprint Platform Ecosystem" width="100%"/></a>
+</p>
+
+> 🌍 **Curated, production-grade guide to Product Carbon Footprint (PCF) SaaS platforms, Life Cycle Assessment (LCA) engines, Scope 3 supply-chain calculators, Environmental Product Declaration (EPD) tools, Digital Product Passports (DPP), and open-source industrial ecology libraries.**
+
+---
+
+## 📖 Table of Contents
+
+- [🌟 Overview & Core PCF Architecture](#-overview--core-pcf-architecture)
+- [🏢 SaaS & Hosted Commercial Platforms](#-saas--hosted-commercial-platforms)
+  - [📊 Market Size & Industry Dynamics](#-market-size--industry-dynamics)
+  - [📋 SaaS Comparison Table (Sorted by Company Scale)](#-saas-comparison-table)
+- [🔓 Open-Source GitHub Repositories (Ranked by Stars)](#-open-source-github-repositories-ranked-by-stars)
+- [🏗️ How to Build an Open-Source PCF Stack](#️-how-to-build-an-open-source-pcf-stack)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [📈 Star History](#-star-history)
+- [⚖️ Disclaimer & Standards Compliance](#️-disclaimer--standards-compliance)
+
+---
+
+## 🌟 Overview & Core PCF Architecture
+
+A **Product Carbon Footprint (PCF)** measures the total greenhouse gas (GHG) emissions generated across the entire life cycle of a product—from raw material extraction (*cradle*) through manufacturing, logistics, and usage to end-of-life recycling or disposal (*grave*).
+
+```mermaid
+flowchart LR
+    A["🌱 Raw Materials<br/>(Scope 3 Cat 1)"] --> B["🏭 Manufacturing & Energy<br/>(Scope 1 & 2)"]
+    B --> C["🚚 Distribution & Transport<br/>(Scope 3 Cat 4/9)"]
+    C --> D["⚡ Product Use Phase<br/>(Scope 3 Cat 11)"]
+    D --> E["♻️ End of Life & Recycling<br/>(Scope 3 Cat 12)"]
+    style A fill:#0d3122,stroke:#10b981,stroke-width:2px,color:#fff
+    style B fill:#082317,stroke:#06b6d4,stroke-width:2px,color:#fff
+    style C fill:#082317,stroke:#34d399,stroke-width:2px,color:#fff
+    style D fill:#082317,stroke:#a3e635,stroke-width:2px,color:#fff
+    style E fill:#0d3122,stroke:#10b981,stroke-width:2px,color:#fff
+```
+
+Key global standards governing PCF calculations include **ISO 14040/14044** (Life Cycle Assessment), **ISO 14067** (Carbon footprint of products), the **GHG Protocol Product Life Cycle Accounting and Reporting Standard**, the **EU Corporate Sustainability Reporting Directive (CSRD)**, the **EU Carbon Border Adjustment Mechanism (CBAM)**, and the **Catena-X** automotive network standard.
+
+---
+
+## 🏢 SaaS & Hosted Commercial Platforms
+
+### 📊 Market Size & Industry Dynamics
+
+> 💡 **Market Outlook:** The global Product Carbon Footprint (PCF) and Enterprise Carbon Accounting software market is estimated at **$15.8 Billion in 2026** and projected to expand to **$64.4 Billion by 2032** (a compound annual growth rate of **~26.4%**). The sector is **moderately to highly fragmented**—while enterprise ERP behemoths (SAP, IBM, Siemens, Workiva) anchor corporate-wide financial and ESG data pipelines, no single provider maintains a monopoly. Specialized Life Cycle Assessment (LCA) and supply-chain platforms maintain strong competitive moats driven by region-specific regulatory mandates (EU CSRD, CBAM, EU Battery Passport, SEC Climate Rules) and specialized primary emission factor databases.
+
+### 📋 SaaS Comparison Table
+
+| Platform | Company Valuation / Revenue Scale | Description | Starting Tier Pricing | Free Tier / Trial Limit |
+| :--- | :--- | :--- | :--- | :--- |
+| [**SAP Sustainability Footprint Management**](https://www.sap.com/products/sustainability/footprint-management.html) | `Enterprise Giant — $250B+ Market Cap ($34B Annual Revenue)` | Enterprise platform for calculating and managing granular product-level (PCF) and corporate-level (CCF) carbon footprints integrating directly with SAP S/4HANA operational and supply-chain transactional data. | Base add-on subscription starts at ~€24,000/year (~$26,000/year; ~$2,000/month) for SAP S/4HANA cloud landscapes | 30-day free trial environment via SAP Business Technology Platform (BTP) with standard pre-configured sample datasets |
+| [**IBM Envizi ESG Suite**](https://www.ibm.com/products/envizi) | `Enterprise Giant — $210B+ Market Cap ($62B Annual Revenue)` | Comprehensive enterprise ESG and sustainability data platform supporting environmental data management, Scope 1-2-3 emissions accounting, CSRD reporting, and decarbonization analytics across multi-facility operations. | Standalone Envizi Emissions API starts from $45/month; complete Envizi ESG Suite starts at ~$30,000/year ($2,500/month) | No permanent free tier; guided interactive test-drive and live cloud demo sandbox accessible via IBM Portal |
+| [**Siemens SiGREEN**](https://www.siemens.com/global/en/products/automation/topic-areas/sigreen.html) | `Global Industrial Leader — $150B+ Market Cap ($83B Annual Revenue)` | Industrial sustainability and Product Carbon Footprint data exchange network designed for cryptographic and Catena-X compliant PCF verification across manufacturing and tier-N supply chains. | Starter PCF exchange package begins at ~€15,000/year (~$16,500/year; ~$1,250/month) via Siemens Xcelerator | Interactive SiGREEN sandbox simulation demo upon request; zero-cost access for connected suppliers to exchange PCF certificates |
+| [**EcoAct (SE Advisory Services)**](https://eco-act.com/) | `Enterprise Sustainability Arm of Schneider Electric ($130B+ Market Cap, $80M+ Division Revenue)` | Global climate consultancy and digital platform provider delivering comprehensive carbon footprinting, climate strategy roadmaps, internal carbon pricing models, and compliance reporting. | Base advisory and digital carbon footprint assessment modules start at ~$16,500/year (€15,000/year) | No self-service free tier; complimentary initial discovery assessment and diagnostic scoping demo upon consultation |
+| [**Workiva ESG**](https://www.workiva.com/solutions/esg-reporting) | `Publicly Traded SaaS Leader — $4.8B Market Cap ($630M Annual Revenue)` | Connected reporting and governance platform unifying ESG data management, evidence collection, audit trails, and multi-framework disclosures (CSRD, SEC, ISSB, CDP, GRI). | Starts at ~$25,000/year (~$2,083/month billed annually) for core ESG compliance and reporting package | No open free tier or self-serve trial; custom guided workspace walkthrough and reporting workflow demo on request |
+| [**EcoVadis**](https://ecovadis.com/) | `ESG Rating Unicorn — $3.0B+ Valuation (~$180M+ Annual Revenue)` | Global supply chain sustainability rating and carbon-action platform providing structured scorecard assessments, benchmark intelligence, and supplier decarbonization tracking across 130,000+ businesses. | Basic plan starts at €350/year (~$380/year for companies with <25 employees); Premium tiers start from ~€1,800/year (~$1,950/year) | Free Carbon Rating tier available for eligible suppliers; 6-week free completion period for invited suppliers prior to scorecard finalization |
+| [**Watershed**](https://watershed.com/) | `Climate Tech Unicorn — $1.8B Valuation (~$50M+ Annual Revenue)` | Enterprise climate platform powering granular Scope 1-3 measurement, supplier engagement, CEDA environmental databases, product emissions modeling, and audit-ready disclosure. | Starts at ~$37,000/year (~$3,083/month billed annually; implementation and onboarding typically $10,000–$25,000) | No permanent free tier or self-serve trial; guided sales pilot / PoC sandboxes provided for qualified enterprise accounts; free open CEDA database download |
+| [**Sphera Product Sustainability**](https://sphera.com/product-sustainability-software/) | `Enterprise ESG & LCA Leader — $1.4B Valuation (Blackstone Portfolio, $140M+ Revenue)` | Industry-leading life cycle assessment (LCA) and product sustainability suite (formerly GaBi / LCA for Experts) featuring managed industrial databases for EPDs, PCFs, and circularity. | Starts at ~$6,500/year (~€6,000/year; ~$540/month per named user) for standard LCA for Experts desktop/cloud packages | 45-day free trial for LCA for Experts (formerly GaBi) with standard dataset access; extended 6-month free educational license for accredited university faculty & PhD researchers |
+| [**Persefoni**](https://www.persefoni.com/) | `Climate SaaS Leader — $700M – $800M Valuation (Raised $150M+)` | AI-powered climate accounting and carbon management platform delivering GHG Protocol compliant calculation engines, PCAF financial emissions tracking, and CSRD/SEC ready audits. | Free ($0) for Persefoni Pro; paid enterprise and advanced disclosure packages start at ~$55,000/year (~$4,580/month) | Free-forever plan ("Persefoni Pro") limited to 1 user seat, baseline Scope 1 & 2 + select Scope 3 accounting, excluding advanced reporting & audit modules |
+| [**One Click LCA**](https://www.oneclicklca.com/) | `LCA & Embodied Carbon Leader — $250M – $300M Valuation (Raised €40M)` | Global automated Life Cycle Assessment and Environmental Product Declaration (EPD) platform specialized in embodied carbon, construction materials, infrastructure, and manufacturing PCF. | Starter Business LCA license starts from €1,190/year (~$1,300/year; approx. €99/month per named user) | 14-day free trial for building & infrastructure LCA modules (instant online registration); 100% free Building LCA license for enrolled students & university instructors |
+| [**Sweep**](https://www.sweep.net/) | `Enterprise Climate SaaS — $180M – $200M Valuation (Raised $100M)` | Data-driven carbon management platform supporting multi-entity enterprise emissions inventories, value-chain mapping, reduction pathways, and compliance reporting. | Starts at €250/month (€3,000/year) for entry module access; comprehensive enterprise suites start at ~€30,000/year (~$32,500/year) | No permanent free tier; guided interactive demo sandbox available on request upon sales consultation (no open self-service trial days) |
+| [**Greenly**](https://greenly.earth/) | `High-Growth Carbon Platform — $160M – $180M Valuation (Raised $75M)` | Automated carbon accounting platform connecting with accounting, financial, ERP, and physical activity data to calculate corporate carbon footprints and product-level life cycle emissions. | Starts at $1,950/year (~$162.50/month billed annually) for entry SME GHG assessment and reporting | Free standalone web calculators (AI Carbon Footprint, Quick Carbon, and CSRD/CBAM eligibility tools); guided platform demo on request (no self-serve free trial) |
+| [**Plan A**](https://plana.earth/) | `Decarbonization SaaS — $120M – $150M Valuation (Raised $40M+)` | Corporate carbon accounting, decarbonization planning, and ESG reporting software helping businesses map emissions, set SBTi science-based targets, and streamline CSRD disclosures. | Starts at ~$13,000/year (€12,000/year; ~$1,080/month billed annually) for mid-market carbon accounting | No permanent free tier; guided demo and short sandbox testing environment available upon sales qualification (no open self-service free trial) |
+| [**Normative**](https://normative.io/) | `Carbon Intelligence Platform — $100M – $130M Valuation (Raised $40M+)` | Science-backed enterprise carbon accounting engine specialized in automated Scope 3 hotspot discovery, supplier transaction categorization, and net-zero reduction planning. | Starts at ~$11,000/year (€10,000/year; ~$915/month billed annually) for baseline corporate accounting | Free Business Carbon Calculator for SMEs (unlimited basic Scope 1, 2, and spend-based Scope 3 estimations); guided demo on request (no full-platform free trial) |
+| [**SINAI Technologies**](https://www.sinaitechnologies.com/) | `Decarbonization Intelligence — $70M – $90M Valuation (Raised $22M)` | Enterprise decarbonization intelligence platform helping heavy industry and transport companies model marginal abatement cost curves (MACC), internal carbon pricing, and scenario forecasts. | Starts at ~$20,000/year (~$1,666/month billed annually) for baseline module and decarbonization scenario modelling | No self-service free tier; custom scenario-modelling demo sandbox provided upon consultation |
+| [**CarbonChain**](https://www.carbonchain.com/) | `Industrial Carbon SaaS — $60M – $80M Valuation (Raised $14M+)` | Supply-chain carbon accounting and decarbonization platform focused on calculating product-level (PCF) and asset-level emissions for metals, mining, energy, and commodity trade finance. | Starts at ~$32,000/year (£25,000/year; ~$2,667/month billed annually) for core industrial modules | 14-day free trial for CBAM reporting and supplier catalogue modules; free standalone Corporate Carbon and ETS Exposure calculators (no permanent free tier for core SaaS) |
+| [**MakerSights Sustainability**](https://www.makersights.com/) | `Product Intelligence SaaS — $50M – $70M Valuation (Raised $35M+)` | Consumer product intelligence platform enabling apparel and retail design teams to test consumer demand, simulate sustainable materials, and minimize overproduction waste. | Starts at ~$15,000/year (~$1,250/month billed annually) for product intelligence & sustainability modules | No self-serve free tier or open trial; guided custom product prototype testing demo available upon request |
+| [**Worldly (formerly Higg)**](https://worldly.io/) | `Consumer Goods Sustainability Network — $50M+ Scale (Raised $50M+, ~$25M Revenue)` | Primary sustainability data platform for the global apparel, footwear, and consumer goods industry, hosting the Higg Index suite (Higg FEM, MSI, FSLM, PM) for materials and facility LCA data. | Entry single-facility assessment subscriptions start at $99 – $350/year; full brand analytics modules start around $2,500/year (~$208/month) | Free basic user account for receiving and viewing shared Higg Index assessment scores from supply chain partners; free introductory training modules |
+| [**SimaPro**](https://simapro.com/) | `Global LCA Gold Standard — 30+ Years Market Leader (~$20M Revenue)` | Pioneering professional Life Cycle Assessment desktop and cloud platform used by 10,000+ LCA practitioners in 80+ countries for detailed ISO 14040/44 product modeling, sensitivity analysis, and Ecoinvent calculations. | SimaPro Expert single-user annual subscription starts at €3,500/year (~$3,800/year; approx. €290/month); permanent licenses from ~€8,500 | 30-day free trial with demo datasets (limited Ecoinvent records); 1-year free Faculty plan for educational institutions in UN-classified low/lower-middle income countries |
+| [**Manufacture 2030 (Secaro / M2030)**](https://manufacture2030.com/) | `Supply Chain Decarbonization — $20M – $30M Valuation (Raised £10M+)` | Manufacturing sustainability and supply-chain decarbonization platform helping enterprise buyers engage thousands of manufacturing suppliers to measure factory emissions and implement site reduction plans. | Buyer enterprise sponsorship programs start at ~$19,000/year (£15,000/year; ~$1,580/month); basic supplier data entry is free when invited by enterprise buyers | Zero-cost access for suppliers invited by enterprise customers to input site-level manufacturing data; interactive platform demo on request |
+| [**Circularise**](https://www.circularise.com/) | `Digital Product Passport Pioneer — $20M – $30M Valuation (Raised €11M+)` | Supply-chain traceability and Digital Product Passport (DPP) platform using smart question technology (zero-knowledge proofs) to share verified material composition and PCF data without revealing IP. | Starting traceability and Digital Product Passport (DPP) pilot packages begin from €18,000/year (~$19,500/year; ~€1,500/month) | No self-service free tier; interactive DPP sandbox walkthrough and sample batch traceability demo available on request |
+| [**Emitwise**](https://emitwise.com/) | `Supply Chain Carbon Platform — Raised $17M (Acquired by Green Project Technologies)` | Automated Scope 3 carbon accounting platform designed to help manufacturers, construction firms, and complex supply chains track and eliminate product-level carbon hotspots. | Starts at ~$9,500/year (£7,500/year; ~$790/month billed annually) for entry mid-market tier | Free zero-cost data-entry portal for suppliers invited by enterprise customers; free public SME Climate Hub calculator (no self-serve free trial for core SaaS) |
+| [**Pathzero**](https://www.pathzero.com/) | `Asset Management Carbon SaaS — $15M – $20M Valuation (Raised AU$15M+)` | Carbon accounting and portfolio climate disclosure platform purpose-built for private market fund managers, institutional investors, and enterprise corporations. | Starts at ~$18,000/year (~$1,500/month billed annually) for entry portfolio carbon accounting and disclosure | No permanent free tier; interactive guided product walkthrough and sandbox demo available on request |
+| [**eTool (eToolLCD / Cerclos)**](https://etoolglobal.com/) | `Infrastructure & Building LCA Specialist — Established Global Platform (~$4M Revenue)` | Cloud-based Life Cycle Assessment and Environmental Product Declaration platform compliant with ISO 14044 and EN 15978 for calculating embodied and operational carbon in the built environment. | Starter subscription starts at ~$1,200/year (~$100/month) plus project certification fees; single-project access from ~$250/project | 14-day free trial with sample project templates; free online software training courses and free Revit LCA plugin download |
+
+---
+
+## 🔓 Open-Source GitHub Repositories (Ranked by Stars)
+
+The open-source ecosystem provides transparent, peer-reviewed, and ISO-compliant scientific engines, data models, telemetry collectors, and low-code applications essential for building custom PCF calculation pipelines. Below are notable open-source repositories **sorted in descending order by live GitHub stargazers**.
+
+| Repository | Stars Badge | Description & Focus Area |
+| :--- | :--- | :--- |
+| [**n8n**](https://github.com/n8n-io/n8n) | <a href="https://github.com/n8n-io/n8n/stargazers"><img src="https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white" alt="n8n Stars"/></a> | Workflow automation platform for orchestrating sustainability, procurement, and supplier data pipelines. |
+| [**Grafana**](https://github.com/grafana/grafana) | <a href="https://github.com/grafana/grafana/stargazers"><img src="https://img.shields.io/github/stars/grafana/grafana?style=social&color=white" alt="Grafana Stars"/></a> | Leading open-source observability, monitoring, and interactive visualization platform for operational energy and emissions metrics. |
+| [**Apache Superset**](https://github.com/apache/superset) | <a href="https://github.com/apache/superset/stargazers"><img src="https://img.shields.io/github/stars/apache/superset?style=social&color=white" alt="Apache Superset Stars"/></a> | Enterprise-ready BI and data exploration platform suited for large-scale supply chain and carbon footprint analytics. |
+| [**NocoDB**](https://github.com/nocodb/nocodb) | <a href="https://github.com/nocodb/nocodb/stargazers"><img src="https://img.shields.io/github/stars/nocodb/nocodb?style=social&color=white" alt="NocoDB Stars"/></a> | Open-source Airtable alternative that turns any database into a smart PCF inventory and supplier tracking spreadsheet. |
+| [**Odoo Community**](https://github.com/odoo/odoo) | <a href="https://github.com/odoo/odoo/stargazers"><img src="https://img.shields.io/github/stars/odoo/odoo?style=social&color=white" alt="Odoo Community Stars"/></a> | Open-source ERP suite with inventory, manufacturing, purchase, and logistics modules that serve as an enterprise PCF data backbone. |
+| [**Metabase**](https://github.com/metabase/metabase) | <a href="https://github.com/metabase/metabase/stargazers"><img src="https://img.shields.io/github/stars/metabase/metabase?style=social&color=white" alt="Metabase Stars"/></a> | Open-source business intelligence platform for creating interactive Scope 1-3 emissions dashboards and PCF visualizations. |
+| [**Apache Airflow**](https://github.com/apache/airflow) | <a href="https://github.com/apache/airflow/stargazers"><img src="https://img.shields.io/github/stars/apache/airflow?style=social&color=white" alt="Apache Airflow Stars"/></a> | Programmatic workflow orchestration platform for automating supplier data ingestion, emission-factor syncs, and PCF pipelines. |
+| [**ToolJet**](https://github.com/ToolJet/ToolJet) | <a href="https://github.com/ToolJet/ToolJet/stargazers"><img src="https://img.shields.io/github/stars/ToolJet/ToolJet?style=social&color=white" alt="ToolJet Stars"/></a> | Open-source low-code framework for developing internal sustainability apps connected to databases and environmental APIs. |
+| [**Appsmith**](https://github.com/appsmithorg/appsmith) | <a href="https://github.com/appsmithorg/appsmith/stargazers"><img src="https://img.shields.io/github/stars/appsmithorg/appsmith?style=social&color=white" alt="Appsmith Stars"/></a> | Open-source low-code framework to build custom internal carbon accounting tools, approval workflows, and PCF dashboards. |
+| [**ERPNext**](https://github.com/frappe/erpnext) | <a href="https://github.com/frappe/erpnext/stargazers"><img src="https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white" alt="ERPNext Stars"/></a> | Full-featured open-source ERP system providing BOMs, manufacturing logs, item masters, and supply chain data for PCF calculations. |
+| [**Directus**](https://github.com/directus/directus) | <a href="https://github.com/directus/directus/stargazers"><img src="https://img.shields.io/github/stars/directus/directus?style=social&color=white" alt="Directus Stars"/></a> | Open-source data engine & real-time REST/GraphQL API for managing product bills-of-materials, LCA datasets, and supplier records. |
+| [**Budibase**](https://github.com/Budibase/budibase) | <a href="https://github.com/Budibase/budibase/stargazers"><img src="https://img.shields.io/github/stars/Budibase/budibase?style=social&color=white" alt="Budibase Stars"/></a> | Open-source low-code platform for building supplier data entry forms, carbon audit workflows, and ESG portals. |
+| [**Node-RED**](https://github.com/node-red/node-red) | <a href="https://github.com/node-red/node-red/stargazers"><img src="https://img.shields.io/github/stars/node-red/node-red?style=social&color=white" alt="Node-RED Stars"/></a> | Low-code flow-based programming environment for connecting IoT sensors, factory meters, ERPs, and carbon calculation APIs. |
+| [**OpenRefine**](https://github.com/OpenRefine/OpenRefine) | <a href="https://github.com/OpenRefine/OpenRefine/stargazers"><img src="https://img.shields.io/github/stars/OpenRefine/OpenRefine?style=social&color=white" alt="OpenRefine Stars"/></a> | Powerful open-source tool for cleaning, transforming, and normalizing dirty supplier datasets and emission factor tables. |
+| [**InvenTree**](https://github.com/inventree/InvenTree) | <a href="https://github.com/inventree/InvenTree/stargazers"><img src="https://img.shields.io/github/stars/inventree/InvenTree?style=social&color=white" alt="InvenTree Stars"/></a> | Open-source inventory, parts, and BOM management platform providing structured component data for cradle-to-gate LCA modeling. |
+| [**Apache NiFi**](https://github.com/apache/nifi) | <a href="https://github.com/apache/nifi/stargazers"><img src="https://img.shields.io/github/stars/apache/nifi?style=social&color=white" alt="Apache NiFi Stars"/></a> | Enterprise data ingestion and transformation platform for routing manufacturing, logistics, and telemetry data to carbon models. |
+| [**Baserow**](https://github.com/baserow/baserow) | <a href="https://github.com/bram2w/baserow/stargazers"><img src="https://img.shields.io/github/stars/bram2w/baserow?style=social&color=white" alt="Baserow Stars"/></a> | Open-source collaborative database platform for product carbon inventories, emission factor libraries, and review workflows. |
+| [**Electricity Maps Contrib**](https://github.com/electricitymaps/electricitymaps-contrib) | <a href="https://github.com/electricitymaps/electricitymaps-contrib/stargazers"><img src="https://img.shields.io/github/stars/electricitymaps/electricitymaps-contrib?style=social&color=white" alt="Electricity Maps Contrib Stars"/></a> | Open-source model and data pipeline providing real-time and forecasted carbon intensity for global electricity grids. |
+| [**PyPSA**](https://github.com/PyPSA/PyPSA) | <a href="https://github.com/PyPSA/PyPSA/stargazers"><img src="https://img.shields.io/github/stars/PyPSA/PyPSA?style=social&color=white" alt="PyPSA Stars"/></a> | Python framework for simulating and optimizing regional and national power systems and energy decarbonization scenarios. |
+| [**Scaphandre**](https://github.com/hubblo-org/scaphandre) | <a href="https://github.com/hubblo-org/scaphandre/stargazers"><img src="https://img.shields.io/github/stars/hubblo-org/scaphandre?style=social&color=white" alt="Scaphandre Stars"/></a> | Low-level energy consumption metrics exporter for bare-metal and virtualized computing infrastructure. |
+| [**CodeCarbon**](https://github.com/mlco2/codecarbon) | <a href="https://github.com/mlco2/codecarbon/stargazers"><img src="https://img.shields.io/github/stars/mlco2/codecarbon?style=social&color=white" alt="CodeCarbon Stars"/></a> | Lightweight Python library to track and estimate equivalent CO2 emissions produced by compute workloads and ML models. |
+| [**Part-DB**](https://github.com/Part-DB/Part-DB-server) | <a href="https://github.com/Part-DB/Part-DB-symfony/stargazers"><img src="https://img.shields.io/github/stars/Part-DB/Part-DB-symfony?style=social&color=white" alt="Part-DB Stars"/></a> | Electronic component and parts inventory management database with structured supplier and lifecycle metadata. |
+| [**Kepler**](https://github.com/sustainable-computing-io/kepler) | <a href="https://github.com/sustainable-computing-io/kepler/stargazers"><img src="https://img.shields.io/github/stars/sustainable-computing-io/kepler?style=social&color=white" alt="Kepler Stars"/></a> | Kubernetes Efficient Power Level Exporter using eBPF to monitor energy consumption of containers, pods, and nodes in real time. |
+| [**Cloud Carbon Footprint**](https://github.com/cloud-carbon-footprint/cloud-carbon-footprint) | <a href="https://github.com/cloud-carbon-footprint/cloud-carbon-footprint/stargazers"><img src="https://img.shields.io/github/stars/cloud-carbon-footprint/cloud-carbon-footprint?style=social&color=white" alt="Cloud Carbon Footprint Stars"/></a> | Comprehensive multi-cloud tool for measuring, analyzing, and reducing carbon emissions and energy consumption in AWS, GCP, and Azure. |
+| [**Carbon Aware SDK**](https://github.com/Green-Software-Foundation/carbon-aware-sdk) | <a href="https://github.com/Green-Software-Foundation/carbon-aware-sdk/stargazers"><img src="https://img.shields.io/github/stars/Green-Software-Foundation/carbon-aware-sdk?style=social&color=white" alt="Carbon Aware SDK Stars"/></a> | SDK and Web API to build carbon-responsive applications that shift compute workloads to greenest grid windows. |
+| [**CarbonTracker**](https://github.com/saintslab/carbontracker) | <a href="https://github.com/lfwa/carbontracker/stargazers"><img src="https://img.shields.io/github/stars/lfwa/carbontracker?style=social&color=white" alt="CarbonTracker Stars"/></a> | Tool for tracking, predicting, and reducing the energy and carbon footprint of training deep learning models. |
+| [**CLIMADA**](https://github.com/CLIMADA-project/climada_python) | <a href="https://github.com/CLIMADA-project/climada_python/stargazers"><img src="https://img.shields.io/github/stars/CLIMADA-project/climada_python?style=social&color=white" alt="CLIMADA Stars"/></a> | Probabilistic natural catastrophe and climate risk assessment platform for modeling climate impact economics. |
+| [**oemof-solph**](https://github.com/oemof/oemof-solph) | <a href="https://github.com/oemof/oemof-solph/stargazers"><img src="https://img.shields.io/github/stars/oemof/oemof-solph?style=social&color=white" alt="oemof-solph Stars"/></a> | Modular open-source framework for modeling, optimizing, and simulating multi-commodity energy systems. |
+| [**Calliope**](https://github.com/calliope-project/calliope) | <a href="https://github.com/calliope-project/calliope/stargazers"><img src="https://img.shields.io/github/stars/calliope-project/calliope?style=social&color=white" alt="Calliope Stars"/></a> | Multi-scale spatial and temporal energy system modeling framework for analyzing renewable transition pathways. |
+| [**Software Carbon Intensity (SCI)**](https://github.com/Green-Software-Foundation/sci) | <a href="https://github.com/Green-Software-Foundation/sci/stargazers"><img src="https://img.shields.io/github/stars/Green-Software-Foundation/sci?style=social&color=white" alt="Software Carbon Intensity (SCI) Stars"/></a> | Open standard specification to calculate rate of carbon emissions for software systems across execution and hardware lifecycles. |
+| [**Experiment Impact Tracker**](https://github.com/Breakend/experiment-impact-tracker) | <a href="https://github.com/Breakend/experiment-impact-tracker/stargazers"><img src="https://img.shields.io/github/stars/Breakend/experiment-impact-tracker?style=social&color=white" alt="Experiment Impact Tracker Stars"/></a> | Automated experiment monitoring tool capturing compute hardware energy, CPU/GPU utilization, and real-time carbon intensity. |
+| [**Eco2AI**](https://github.com/sb-ai-lab/Eco2AI) | <a href="https://github.com/sb-ai-lab/Eco2AI/stargazers"><img src="https://img.shields.io/github/stars/sb-ai-lab/Eco2AI?style=social&color=white" alt="Eco2AI Stars"/></a> | Python library designed to evaluate carbon footprint and energy efficiency of machine learning training algorithms. |
+| [**openLCA**](https://github.com/GreenDelta/olca-app) | <a href="https://github.com/GreenDelta/olca-app/stargazers"><img src="https://img.shields.io/github/stars/GreenDelta/olca-app?style=social&color=white" alt="openLCA Stars"/></a> | Industry-standard open-source modular Life Cycle Assessment application for detailed cradle-to-grave product footprints and EPDs. |
+| [**pyMRIO**](https://github.com/IndEcol/pymrio) | <a href="https://github.com/IndEcol/pymrio/stargazers"><img src="https://img.shields.io/github/stars/IndEcol/pymrio?style=social&color=white" alt="pyMRIO Stars"/></a> | Python package for processing Multi-Regional Input-Output (MRIO) databases (EXIOBASE, WIOD, Eora) for supply chain carbon footprints. |
+| [**Activity Browser**](https://github.com/LCA-ActivityBrowser/activity-browser) | <a href="https://github.com/LCA-ActivityBrowser/activity-browser/stargazers"><img src="https://img.shields.io/github/stars/LCA-ActivityBrowser/activity-browser?style=social&color=white" alt="Activity Browser Stars"/></a> | Open-source graphical desktop interface for Brightway-based LCA projects, databases, and impact assessments. |
+| [**Premise**](https://github.com/polca/premise) | <a href="https://github.com/polca/premise/stargazers"><img src="https://img.shields.io/github/stars/polca/premise?style=social&color=white" alt="Premise Stars"/></a> | Python library for prospective LCA, coupling integrated assessment models (IAMs) with ecoinvent databases for future scenarios. |
+| [**Impact Framework**](https://github.com/Green-Software-Foundation/if) | <a href="https://github.com/Green-Software-Foundation/if/stargazers"><img src="https://img.shields.io/github/stars/Green-Software-Foundation/if?style=social&color=white" alt="Impact Framework Stars"/></a> | Standardized framework from the Green Software Foundation to model, measure, and compute software application carbon footprints. |
+| [**Switch Power Model**](https://github.com/switch-model/switch) | <a href="https://github.com/switch-model/switch/stargazers"><img src="https://img.shields.io/github/stars/switch-model/switch?style=social&color=white" alt="Switch Power Model Stars"/></a> | Modular power system planning platform for modeling high-penetration renewable grid transitions and generation emissions. |
+| [**Brightway (brightway2)**](https://github.com/brightway-lca/brightway2) | <a href="https://github.com/brightway-lca/brightway2/stargazers"><img src="https://img.shields.io/github/stars/brightway-lca/brightway2?style=social&color=white" alt="Brightway (brightway2) Stars"/></a> | Modular, high-performance Python framework for advanced, programmatic, and matrix-based Life Cycle Assessment calculations. |
+| [**TEMOA**](https://github.com/TemoaProject/temoa) | <a href="https://github.com/TemoaProject/temoa/stargazers"><img src="https://img.shields.io/github/stars/TemoaProject/temoa?style=social&color=white" alt="TEMOA Stars"/></a> | Open-source energy economy optimization modeling framework for evaluating energy policy and carbon constraints. |
+| [**pycontrails**](https://github.com/contrailcirrus/pycontrails) | <a href="https://github.com/contrailcirrus/pycontrails/stargazers"><img src="https://img.shields.io/github/stars/contrailcirrus/pycontrails?style=social&color=white" alt="pycontrails Stars"/></a> | Python library for modeling aviation emissions, climate forcing, contrail formation, and flight path decarbonization. |
+| [**BoaviztAPI**](https://github.com/Boavizta/boaviztapi) | <a href="https://github.com/Boavizta/boaviztapi/stargazers"><img src="https://img.shields.io/github/stars/Boavizta/boaviztapi?style=social&color=white" alt="BoaviztAPI Stars"/></a> | Open-source REST API to evaluate the multi-criteria environmental footprint of digital equipment, servers, and cloud resources. |
+| [**Wurst**](https://github.com/polca/wurst) | <a href="https://github.com/polca/wurst/stargazers"><img src="https://img.shields.io/github/stars/polca/wurst?style=social&color=white" alt="Wurst Stars"/></a> | Python library for synthesizing, manipulating, and transforming large-scale Life Cycle Inventory (LCI) databases. |
+| [**openLCA Python IPC**](https://github.com/GreenDelta/olca-ipc.py) | <a href="https://github.com/GreenDelta/olca-ipc.py/stargazers"><img src="https://img.shields.io/github/stars/GreenDelta/olca-ipc.py?style=social&color=white" alt="openLCA Python IPC Stars"/></a> | Python client interface for programmatic communication, data extraction, and calculation runs on openLCA. |
+| [**Boavizta Cloud Scanner**](https://github.com/Boavizta/cloud-scanner) | <a href="https://github.com/Boavizta/cloud-scanner/stargazers"><img src="https://img.shields.io/github/stars/Boavizta/cloud-scanner?style=social&color=white" alt="Boavizta Cloud Scanner Stars"/></a> | CLI scanner that inspects cloud infrastructure configurations (AWS/GCP) to compute embodied and operational emissions. |
+| [**BoAgent**](https://github.com/Boavizta/boagent) | <a href="https://github.com/Boavizta/boagent/stargazers"><img src="https://img.shields.io/github/stars/Boavizta/boagent?style=social&color=white" alt="BoAgent Stars"/></a> | Environmental impact monitoring agent running on Linux/Windows servers to stream hardware telemetry to BoaviztAPI. |
+| [**Datavizta**](https://github.com/Boavizta/datavizta) | <a href="https://github.com/Boavizta/datavizta/stargazers"><img src="https://img.shields.io/github/stars/Boavizta/datavizta?style=social&color=white" alt="Datavizta Stars"/></a> | Interactive visualization dashboard for exploring environmental footprints of digital hardware and infrastructure components. |
+| [**OSeMOSYS**](https://github.com/OSeMOSYS/OSeMOSYS_GNU_MathProg) | <a href="https://github.com/OSeMOSYS/OSeMOSYS_GNU_MathProg/stargazers"><img src="https://img.shields.io/github/stars/OSeMOSYS/OSeMOSYS_GNU_MathProg?style=social&color=white" alt="OSeMOSYS Stars"/></a> | Open-source energy system modeling framework for long-term energy planning and emissions trajectory analysis. |
+| [**Green Algorithms Tool**](https://github.com/Green-Algorithms/green-algorithms-tool) | <a href="https://github.com/Green-Algorithms/green-algorithms-tool/stargazers"><img src="https://img.shields.io/github/stars/Green-Algorithms/green-algorithms-tool?style=social&color=white" alt="Green Algorithms Tool Stars"/></a> | Interactive computational carbon calculator designed to standardize the environmental footprint of scientific algorithms. |
+| [**LCAx**](https://github.com/kongsgaard/lcax) | <a href="https://github.com/kongsgaard/lcax/stargazers"><img src="https://img.shields.io/github/stars/kongsgaard/lcax?style=social&color=white" alt="LCAx Stars"/></a> | Open-source data exchange format and validator for Life Cycle Assessments and Environmental Product Declarations (EPD). |
+| [**LCA-Algebraic**](https://github.com/o-alexandre/LCA-Algebraic) | <a href="https://github.com/o-alexandre/LCA-Algebraic/stargazers"><img src="https://img.shields.io/github/stars/o-alexandre/LCA-Algebraic?style=social&color=white" alt="LCA-Algebraic Stars"/></a> | Python extension for Brightway2 enabling symbolic algebra, parameter sensitivity, and fast uncertainty calculations in LCA models. |
+| [**pyecospold**](https://github.com/Sustainability-Lab-Capenergies/pyecospold) | <a href="https://github.com/Sustainability-Lab-Capenergies/pyecospold/stargazers"><img src="https://img.shields.io/github/stars/Sustainability-Lab-Capenergies/pyecospold?style=social&color=white" alt="pyecospold Stars"/></a> | Python library for parsing, validating, and generating EcoSpold 1 and EcoSpold 2 XML datasets for LCA data exchange. |
+| [**Lcopt**](https://github.com/jamesjoyce/lcopt) | <a href="https://github.com/jamesjoyce/lcopt/stargazers"><img src="https://img.shields.io/github/stars/jamesjoyce/lcopt?style=social&color=white" alt="Lcopt Stars"/></a> | Interactive Python module and UI for constructing, visualizing, and parameterizing foreground product systems in LCA. |
+| [**Boavizta e-footprint**](https://github.com/Boavizta/efootprint) | <a href="https://github.com/Boavizta/efootprint/stargazers"><img src="https://img.shields.io/github/stars/Boavizta/efootprint?style=social&color=white" alt="Boavizta e-footprint Stars"/></a> | Life-cycle assessment engine for calculating the environmental footprint of digital services and computing architectures. |
+| [**ODYM**](https://github.com/StefanPauliuk/ODYM) | <a href="https://github.com/StefanPauliuk/ODYM/stargazers"><img src="https://img.shields.io/github/stars/StefanPauliuk/ODYM?style=social&color=white" alt="ODYM Stars"/></a> | Open Dynamic Material Systems Model for dynamic material flow analysis (MFA) and product stock-flow lifespan modeling. |
+| [**pymfa**](https://github.com/IndEcol/pymfa) | <a href="https://github.com/IndEcol/pymfa/stargazers"><img src="https://img.shields.io/github/stars/IndEcol/pymfa?style=social&color=white" alt="pymfa Stars"/></a> | Python library for substance and material flow analysis across product lifecycles and recycling loops. |
+
+---
+
+## 🏗️ How to Build an Open-Source PCF Stack
+
+You can build a production-grade, reproducible, audit-ready Product Carbon Footprint architecture entirely with open-source tools:
+
+```mermaid
+graph TD
+    subgraph Data_Ingestion["1. Data Ingestion & Integration"]
+        ERP["ERP / BOM Data<br/>(ERPNext / Odoo)"] --> ETL["Pipelines & Ingestion<br/>(Airflow / NiFi / n8n)"]
+        IOT["Energy Telemetry & Sensors<br/>(Node-RED / Scaphandre / Kepler)"] --> ETL
+    end
+
+    subgraph Calculation_Engine["2. LCA & Carbon Calculation Engine"]
+        ETL --> LCA["LCA Matrix Engine<br/>(openLCA / Brightway2 / premise)"]
+        EF["Emission Factor Databases<br/>(EXIOBASE / pyMRIO / pyecospold)"] --> LCA
+    end
+
+    subgraph Storage_Management["3. Inventory & Master Data"]
+        LCA --> DB["Carbon Master DB<br/>(Directus / Baserow / NocoDB)"]
+        BOM["Component & Part Specs<br/>(InvenTree / Part-DB)"] --> DB
+    end
+
+    subgraph Reporting_Analytics["4. Dashboards, EPDs & Digital Passports"]
+        DB --> DASH["Analytics & BI Dashboards<br/>(Metabase / Apache Superset / Grafana)"]
+        DB --> APP["Custom User Portals<br/>(Appsmith / Budibase / ToolJet)"]
+        DB --> EPD["Standardized EPD & DPP Outputs<br/>(LCAx / OpenEPD / SCI)"]
+    end
+```
+
+---
+
+## 🤝 How to Contribute
+
+Contributions to this awesome list are enthusiastically welcomed! To contribute:
+
+1. 🍴 **Fork** this repository.
+2. 🌿 **Create a branch** for your addition (`git checkout -b add-my-platform`).
+3. 📝 **Add your entry** following the table format (Platform name, canonical website link, accurate pricing & free tier details or GitHub repo with stars badge).
+4. 🧪 **Ensure all links are valid** and descriptions remain objective, technical, and factual.
+5. 🚀 **Submit a Pull Request** with a clear explanation of why the tool belongs here.
+
+Explore more curated lists on [Awesome-Awesome-Awesome](https://github.com/ishandutta2007/Awesome-Awesome-Awesome)!
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Product-Carbon-Footprint-Platform&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Product-Carbon-Footprint-Platform&type=date&legend=top-left)
+
+---
+
+## ⚖️ Disclaimer & Standards Compliance
+
+- 📌 **Community-Curated:** This repository is maintained for informational and educational purposes. Inclusion does not constitute a formal commercial endorsement.
+- 🔬 **Methodology Variations:** Product Carbon Footprint calculations may differ substantially depending on boundary limits (*cradle-to-gate* vs. *cradle-to-grave*), allocation models (mass, economic, energy), database vintage, and regional grid emission factors.
+- 📑 **Audit & Verification:** Automated calculations do not replace certified verification. Always validate final PCF claims against accredited third-party verifiers when preparing official EPDs, CSRD filings, or CBAM declarations.
+
+<p align="center">Made with 💚 for sustainability engineers, LCA practitioners, supply-chain leaders, and open-source climate developers.</p>

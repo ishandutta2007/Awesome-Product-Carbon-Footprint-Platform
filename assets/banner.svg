@@ -1,0 +1,202 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%" style="background: #060e0a; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#05130e"/>
+      <stop offset="50%" stop-color="#071d15"/>
+      <stop offset="100%" stop-color="#040b08"/>
+    </linearGradient>
+
+    <!-- Neon Gradients -->
+    <linearGradient id="primary-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="50%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#34d399"/>
+    </linearGradient>
+
+    <linearGradient id="accent-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34d399"/>
+      <stop offset="100%" stop-color="#a3e635"/>
+    </linearGradient>
+
+    <!-- Radial Glows -->
+    <radialGradient id="glow-emerald" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#10b981" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="glow-cyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Filter for Neon Glow -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); opacity: 0.8; }
+      50% { transform: scale(1.08); opacity: 1; }
+    }
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    @keyframes spin-reverse {
+      0% { transform: rotate(360deg); }
+      100% { transform: rotate(0deg); }
+    }
+    @keyframes float {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-8px); }
+    }
+    @keyframes dash {
+      to { stroke-dashoffset: -100; }
+    }
+    @keyframes shimmer {
+      0% { stop-color: #10b981; }
+      50% { stop-color: #06b6d4; }
+      100% { stop-color: #10b981; }
+    }
+    .pulsing-orb {
+      transform-origin: 980px 210px;
+      animation: pulse 4s ease-in-out infinite;
+    }
+    .rotating-ring-1 {
+      transform-origin: 980px 210px;
+      animation: spin 20s linear infinite;
+    }
+    .rotating-ring-2 {
+      transform-origin: 980px 210px;
+      animation: spin-reverse 15s linear infinite;
+    }
+    .floating-card {
+      animation: float 5s ease-in-out infinite;
+    }
+    .grid-line {
+      stroke: #10b981;
+      stroke-opacity: 0.08;
+      stroke-width: 1;
+    }
+    .stream-line {
+      stroke: #34d399;
+      stroke-dasharray: 6 14;
+      animation: dash 5s linear infinite;
+    }
+  </style>
+
+  <!-- Background Base -->
+  <rect width="1200" height="420" fill="url(#bg-grad)"/>
+
+  <!-- Background Grid -->
+  <g>
+    <line x1="0" y1="70" x2="1200" y2="70" class="grid-line" />
+    <line x1="0" y1="140" x2="1200" y2="140" class="grid-line" />
+    <line x1="0" y1="210" x2="1200" y2="210" class="grid-line" />
+    <line x1="0" y1="280" x2="1200" y2="280" class="grid-line" />
+    <line x1="0" y1="350" x2="1200" y2="350" class="grid-line" />
+    <line x1="150" y1="0" x2="150" y2="420" class="grid-line" />
+    <line x1="300" y1="0" x2="300" y2="420" class="grid-line" />
+    <line x1="450" y1="0" x2="450" y2="420" class="grid-line" />
+    <line x1="600" y1="0" x2="600" y2="420" class="grid-line" />
+    <line x1="750" y1="0" x2="750" y2="420" class="grid-line" />
+    <line x1="900" y1="0" x2="900" y2="420" class="grid-line" />
+    <line x1="1050" y1="0" x2="1050" y2="420" class="grid-line" />
+  </g>
+
+  <!-- Ambient Glow Orbs -->
+  <circle cx="200" cy="180" r="260" fill="url(#glow-emerald)"/>
+  <circle cx="980" cy="210" r="300" fill="url(#glow-cyan)"/>
+  <circle cx="980" cy="210" r="180" fill="url(#glow-emerald)"/>
+
+  <!-- Dynamic Carbon Orbit Graphic on Right Side -->
+  <g class="pulsing-orb">
+    <!-- Center Core -->
+    <circle cx="980" cy="210" r="42" fill="#0c3826" stroke="#34d399" stroke-width="2.5" filter="url(#glow)"/>
+    <text x="980" y="217" font-size="20" font-weight="900" fill="#34d399" text-anchor="middle">CO₂e</text>
+  </g>
+
+  <!-- Ring 1 with nodes -->
+  <g class="rotating-ring-1">
+    <ellipse cx="980" cy="210" rx="140" ry="75" fill="none" stroke="#10b981" stroke-opacity="0.45" stroke-width="1.8" stroke-dasharray="8 6"/>
+    <circle cx="1120" cy="210" r="6" fill="#a3e635" filter="url(#glow)"/>
+    <circle cx="840" cy="210" r="6" fill="#06b6d4" filter="url(#glow)"/>
+    <circle cx="980" cy="135" r="5" fill="#34d399" filter="url(#glow)"/>
+  </g>
+
+  <!-- Ring 2 with nodes -->
+  <g class="rotating-ring-2">
+    <ellipse cx="980" cy="210" rx="90" ry="145" fill="none" stroke="#06b6d4" stroke-opacity="0.5" stroke-width="1.8" stroke-dasharray="12 8"/>
+    <circle cx="980" cy="65" r="7" fill="#34d399" filter="url(#glow)"/>
+    <circle cx="980" cy="355" r="7" fill="#10b981" filter="url(#glow)"/>
+    <circle cx="1070" cy="210" r="5" fill="#a3e635" filter="url(#glow)"/>
+  </g>
+
+  <!-- Outer Dash Circle -->
+  <g class="rotating-ring-1">
+    <circle cx="980" cy="210" r="165" fill="none" stroke="#34d399" stroke-opacity="0.2" stroke-width="1.5" stroke-dasharray="15 15"/>
+  </g>
+
+  <!-- Left Content Area -->
+  <g transform="translate(70, 0)">
+    <!-- Top Pill Tag -->
+    <g transform="translate(0, 52)">
+      <rect width="260" height="30" rx="15" fill="#0d3122" stroke="#10b981" stroke-width="1.2"/>
+      <circle cx="16" cy="15" r="4.5" fill="#34d399" filter="url(#glow)"/>
+      <text x="30" y="20" font-size="12" font-weight="700" fill="#34d399" letter-spacing="1">CURATED AWESOME ECOSYSTEM</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="0" y="132" font-size="36" font-weight="900" fill="#ffffff" letter-spacing="-0.5">
+      Product Carbon Footprint
+    </text>
+    <text x="0" y="176" font-size="36" font-weight="900" fill="url(#primary-grad)" letter-spacing="-0.5">
+      Platforms &amp; LCA Tools
+    </text>
+
+    <!-- Subtitle -->
+    <text x="0" y="218" font-size="15" font-weight="400" fill="#94a3b8" letter-spacing="0.2">
+      The definitive directory of enterprise SaaS solutions and open-source software
+    </text>
+    <text x="0" y="240" font-size="15" font-weight="400" fill="#94a3b8" letter-spacing="0.2">
+      for Life Cycle Assessment (LCA), Scope 3 supply chain emissions &amp; decarbonization.
+    </text>
+
+    <!-- Feature Tags -->
+    <g transform="translate(0, 275)">
+      <!-- Tag 1 -->
+      <g transform="translate(0, 0)">
+        <rect width="138" height="32" rx="8" fill="#082317" stroke="#10b981" stroke-opacity="0.5" stroke-width="1"/>
+        <text x="69" y="20" font-size="12" font-weight="700" fill="#a7f3d0" text-anchor="middle">🌱 ISO 14040/44</text>
+      </g>
+      <!-- Tag 2 -->
+      <g transform="translate(148, 0)">
+        <rect width="130" height="32" rx="8" fill="#082317" stroke="#06b6d4" stroke-opacity="0.5" stroke-width="1"/>
+        <text x="65" y="20" font-size="12" font-weight="700" fill="#a5f3fc" text-anchor="middle">⚡ Scope 1-2-3</text>
+      </g>
+      <!-- Tag 3 -->
+      <g transform="translate(288, 0)">
+        <rect width="132" height="32" rx="8" fill="#082317" stroke="#34d399" stroke-opacity="0.5" stroke-width="1"/>
+        <text x="66" y="20" font-size="12" font-weight="700" fill="#a7f3d0" text-anchor="middle">📊 EPD &amp; Catena-X</text>
+      </g>
+      <!-- Tag 4 -->
+      <g transform="translate(430, 0)">
+        <rect width="128" height="32" rx="8" fill="#082317" stroke="#a3e635" stroke-opacity="0.5" stroke-width="1"/>
+        <text x="64" y="20" font-size="12" font-weight="700" fill="#ecfccb" text-anchor="middle">🔓 Open-Source</text>
+      </g>
+    </g>
+
+    <!-- Bottom Stat Highlights -->
+    <g transform="translate(0, 340)">
+      <text x="0" y="16" font-size="13" font-weight="700" fill="#34d399">24+ Commercial SaaS</text>
+      <text x="145" y="16" font-size="13" font-weight="400" fill="#475569">•</text>
+      <text x="160" y="16" font-size="13" font-weight="700" fill="#38bdf8">50+ Open-Source Repos</text>
+      <text x="330" y="16" font-size="13" font-weight="400" fill="#475569">•</text>
+      <text x="345" y="16" font-size="13" font-weight="700" fill="#a3e635">Live Stargazer Rankings</text>
+    </g>
+  </g>
+</svg>
