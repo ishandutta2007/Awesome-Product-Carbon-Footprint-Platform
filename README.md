@@ -29,80 +29,32 @@ Disclaimer
 
 SaaS/Hosted Platforms
 
-CarbonChain
-Supply-chain carbon accounting and decarbonization platform focused on calculating product and supplier emissions, particularly for complex industrial and commodity supply chains.
-
-Emitwise
-Enterprise carbon-accounting platform designed to help organizations collect emissions data, analyze Scope 1, 2, and 3 emissions, and identify decarbonization opportunities across operations and supply chains.
-
-Watershed
-Enterprise climate platform supporting carbon measurement, Scope 3 accounting, supply-chain engagement, decarbonization programs, and climate-related reporting.
-
-Normative
-Carbon-accounting and emissions-management platform focused on organizational and supply-chain emissions measurement, reduction planning, and sustainability reporting.
-
-Sweep
-Carbon-management platform supporting emissions data collection, Scope 3 calculations, supply-chain collaboration, reduction planning, and enterprise climate programs.
-
-Plan A
-Enterprise sustainability and decarbonization platform supporting emissions measurement, environmental data management, reduction initiatives, and sustainability reporting.
-
-Greenly
-Carbon-accounting platform designed to automate emissions calculations through financial, operational, supplier, and activity data integrations.
-
-MakerSights Sustainability
-Product intelligence and sustainability capabilities supporting consumer-product teams with product decisions, material information, and sustainability-related analysis.
-
-Sphera Product Sustainability
-Enterprise sustainability platform with life-cycle assessment, product sustainability, product stewardship, environmental data, and supply-chain sustainability capabilities.
-
-Pathzero
-Carbon-accounting and climate-reporting platform designed for organizations and investment portfolios to measure, manage, and report emissions.
-
-SINAI Technologies
-Enterprise decarbonization platform supporting emissions inventories, scenario modelling, abatement planning, internal carbon pricing, and reduction pathways.
-
-Persefoni
-Climate-management platform supporting enterprise carbon accounting, emissions inventories, sustainability disclosure, and audit-ready reporting.
-
-IBM Envizi
-Enterprise ESG and sustainability-data platform supporting environmental data management, emissions accounting, reporting, and decarbonization analysis.
-
-Workiva ESG
-Sustainability reporting and governance platform supporting ESG data management, evidence collection, controls, reporting, and disclosure workflows.
-
-EcoAct
-Climate and sustainability services and technology provider supporting carbon footprinting, climate strategy, emissions reduction, and reporting.
-
-One Click LCA
-Life-cycle assessment and carbon-management platform focused strongly on construction products, buildings, infrastructure, Environmental Product Declarations, and embodied carbon.
-
-SimaPro
-Professional life-cycle assessment software widely used for modelling product environmental impacts and conducting detailed LCA studies.
-
-eTool
-Sustainability and LCA software focused on product and built-environment environmental assessments.
-
-Circularise
-Supply-chain traceability and material-data platform supporting circularity, product transparency, supplier data exchange, and sustainability information.
-
-M2030
-Manufacturing sustainability platform helping industrial organizations and supply chains measure emissions and implement decarbonization initiatives.
-
-Manufacture 2030
-Supply-chain decarbonization platform focused on collecting manufacturing emissions data and supporting supplier reduction programs.
-
-SAP Sustainability Footprint Management
-Enterprise platform for calculating and managing product and corporate carbon footprints using operational and supply-chain data.
-
-Siemens SiGREEN
-Industrial sustainability and product-carbon-footprint data exchange capabilities designed for sharing PCF information across manufacturing value chains.
-
-EcoVadis
-Sustainability ratings and supplier-assessment platform supporting supply-chain sustainability analysis and engagement.
-
-Worldly
-Sustainability-data platform supporting product, material, supply-chain, and manufacturing environmental measurement, particularly across consumer goods industries.
+| Platform | Description | Starting Pricing | Free Tier / Trial Limit |
+| :--- | :--- | :--- | :--- |
+| **CarbonChain** | Supply-chain carbon accounting and decarbonization platform focused on calculating product and supplier emissions, particularly for complex industrial and commodity supply chains. | Starts at ~$32,000/year (£25,000/year; ~$2,667/month billed annually) for core industrial modules | 14-day free trial for CBAM reporting and supplier catalogue modules; free standalone Corporate Carbon and ETS Exposure calculators (no permanent free tier for core SaaS) |
+| **Emitwise** | Enterprise carbon-accounting platform designed to help organizations collect emissions data, analyze Scope 1, 2, and 3 emissions, and identify decarbonization opportunities across operations and supply chains. | Starts at ~$9,500/year (£7,500/year; ~$790/month billed annually) for entry mid-market tier | Free zero-cost data-entry portal for suppliers invited by enterprise customers; free public SME Climate Hub calculator (no self-serve free trial for core SaaS) |
+| **Watershed** | Enterprise climate platform supporting carbon measurement, Scope 3 accounting, supply-chain engagement, decarbonization programs, and climate-related reporting. | Starts at ~$37,000/year (~$3,083/month billed annually; onboarding/implementation typically $10,000+) | No permanent free tier or self-service trial; guided sales pilot / PoC sandboxes provided for qualified enterprise accounts; free open CEDA database download access |
+| **Normative** | Carbon-accounting and emissions-management platform focused on organizational and supply-chain emissions measurement, reduction planning, and sustainability reporting. | Starts at ~$11,000/year (€10,000/year; ~$915/month billed annually) for baseline corporate accounting | Free Business Carbon Calculator for SMEs (unlimited basic Scope 1, 2, and spend-based Scope 3 estimations); guided demo on request (no full-platform free trial) |
+| **Sweep** | Carbon-management platform supporting emissions data collection, Scope 3 calculations, supply-chain collaboration, reduction planning, and enterprise climate programs. | Starts at €250/month (€3,000/year) for entry module access; comprehensive enterprise suites start at ~€30,000/year (~$32,500/year) | No permanent free tier; guided interactive demo sandbox available on request upon sales consultation (no open self-service trial days) |
+| **Plan A** | Enterprise sustainability and decarbonization platform supporting emissions measurement, environmental data management, reduction initiatives, and sustainability reporting. | Starts at ~$13,000/year (€12,000/year; ~$1,080/month billed annually) for mid-market carbon accounting | No permanent free tier; guided demo and short sandbox testing environment available upon sales qualification (no open self-service free trial) |
+| **Greenly** | Carbon-accounting platform designed to automate emissions calculations through financial, operational, supplier, and activity data integrations. | Starts at $1,950/year (~$162.50/month billed annually) for entry SME GHG assessment and reporting | Free standalone web calculators (AI Carbon Footprint, Quick Carbon, and CSRD/CBAM eligibility tools); guided platform demo on request (no self-serve free trial) |
+| **MakerSights Sustainability** | Product intelligence and sustainability capabilities supporting consumer-product teams with product decisions, material information, and sustainability-related analysis. | Starts at ~$15,000/year (~$1,250/month billed annually) for product intelligence & sustainability modules | No self-serve free tier or open trial; guided custom product prototype testing demo available upon request |
+| **Sphera Product Sustainability** | Enterprise sustainability platform with life-cycle assessment, product sustainability, product stewardship, environmental data, and supply-chain sustainability capabilities. | Starts at ~$6,500/year (~€6,000/year; ~$540/month per named user) for standard LCA for Experts desktop/cloud packages | 45-day free trial for LCA for Experts (formerly GaBi) with standard dataset access; extended 6-month free educational license for accredited university faculty and PhD researchers |
+| **Pathzero** | Carbon-accounting and climate-reporting platform designed for organizations and investment portfolios to measure, manage, and report emissions. | Starts at ~$18,000/year (~$1,500/month billed annually) for entry portfolio carbon accounting and disclosure | No permanent free tier; interactive guided product walkthrough and sandbox demo available on request |
+| **SINAI Technologies** | Enterprise decarbonization platform supporting emissions inventories, scenario modelling, abatement planning, internal carbon pricing, and reduction pathways. | Starts at ~$20,000/year (~$1,666/month billed annually) for baseline module and decarbonization scenario modelling | No self-service free tier; custom scenario-modelling demo sandbox provided upon consultation |
+| **Persefoni** | Climate-management platform supporting enterprise carbon accounting, emissions inventories, sustainability disclosure, and audit-ready reporting. | Free ($0) for Persefoni Pro; paid enterprise and advanced disclosure packages start at ~$55,000/year (~$4,580/month) | Free-forever plan ("Persefoni Pro") limited to 1 user seat, baseline Scope 1 & 2 + select Scope 3 accounting, excluding advanced reporting & audit modules |
+| **IBM Envizi** | Enterprise ESG and sustainability-data platform supporting environmental data management, emissions accounting, reporting, and decarbonization analysis. | Standalone Envizi Emissions API starts from $45/month; complete Envizi ESG Suite starts at ~$30,000/year ($2,500/month) | No permanent free tier; guided interactive test-drive demo accessible via IBM Portal |
+| **Workiva ESG** | Sustainability reporting and governance platform supporting ESG data management, evidence collection, controls, reporting, and disclosure workflows. | Starts at ~$25,000/year (~$2,083/month billed annually) for core ESG reporting module | No open free tier or self-service trial; custom guided workspace walkthrough and reporting demo available on request |
+| **EcoAct** | Climate and sustainability services and technology provider supporting carbon footprinting, climate strategy, emissions reduction, and reporting. | Base advisory and digital footprint assessment packages start at ~$16,500/year (€15,000/year) | No self-service free tier; complimentary initial discovery assessment and diagnostic demo upon request |
+| **One Click LCA** | Life-cycle assessment and carbon-management platform focused strongly on construction products, buildings, infrastructure, Environmental Product Declarations, and embodied carbon. | Starter Business LCA license starts from €1,190/year (~$1,300/year; approx. €99/month per named user) | 14-day free trial for building & infrastructure LCA modules (instant online registration); 100% free Building LCA license for enrolled students & university instructors |
+| **SimaPro** | Professional life-cycle assessment software widely used for modelling product environmental impacts and conducting detailed LCA studies. | SimaPro Expert single-user annual subscription starts at €3,500/year (~$3,800/year; approx. €290/month); permanent licenses from ~€8,500 | 30-day free trial with demo datasets (limited Ecoinvent records); 1-year free Faculty plan for educational institutions in UN-classified low/lower-middle income countries |
+| **eTool** | Sustainability and LCA software focused on product and built-environment environmental assessments. | Starter subscription starts at ~$1,200/year (~$100/month) plus project certification fees; single-project access from ~$250/project | 14-day free trial with sample project templates; free online software training courses and free Revit LCA plugin download |
+| **Circularise** | Supply-chain traceability and material-data platform supporting circularity, product transparency, supplier data exchange, and sustainability information. | Starting traceability and Digital Product Passport (DPP) pilot packages begin from €18,000/year (~$19,500/year; ~€1,500/month) | No self-service free tier; interactive DPP sandbox walkthrough and sample batch traceability demo available on request |
+| **Manufacture 2030 (M2030)** | Manufacturing sustainability and supply-chain decarbonization platform helping industrial organizations measure emissions and implement decarbonization initiatives. | Buyer enterprise sponsorship programs start at ~$19,000/year (£15,000/year; ~$1,580/month); basic supplier data entry is free when invited by enterprise buyers | Zero-cost access for suppliers invited by enterprise customers to input site-level manufacturing data; interactive platform demo on request |
+| **SAP Sustainability Footprint Management** | Enterprise platform for calculating and managing product and corporate carbon footprints using operational and supply-chain data. | Base subscription add-on starts at ~€24,000/year (~$26,000/year; ~$2,000/month) for SAP S/4HANA cloud environments | 30-day free trial via SAP Business Technology Platform (BTP) trial environment with standard test dataset limitations |
+| **Siemens SiGREEN** | Industrial sustainability and product-carbon-footprint data exchange capabilities designed for sharing PCF information across manufacturing value chains. | Starter PCF exchange package begins at ~€15,000/year (~$16,500/year; ~$1,250/month) via Siemens Xcelerator | Interactive SiGREEN test environment demo available upon request; free access for suppliers to share PCF exchange certificates |
+| **EcoVadis** | Sustainability ratings and supplier-assessment platform supporting supply-chain sustainability analysis and engagement. | Basic plan starts at €350/year (~$380/year for small businesses <25 employees); Premium plan starts from ~€1,800/year (~$1,950/year) | Free Carbon Rating tier available; 6-week free completion period for invited suppliers prior to scorecard finalization |
+| **Worldly** | Sustainability-data platform supporting product, material, supply-chain, and manufacturing environmental measurement, particularly across consumer goods industries. | Entry single-facility assessment subscriptions start at $99 – $350/year; full brand analytics modules start around $2,500/year (~$208/month) | Free basic user account for receiving and viewing shared Higg Index assessment scores from supply chain partners; free introductory training modules |
 
 Open-Source GitHub Projects
 
